@@ -14,7 +14,10 @@
 class CPP_PROJ_API Ccpp_proj {
 public:
 	Ccpp_proj(void);
-	// TODO: Добавьте здесь свои методы.
+	double GetMyValue(double a) {		
+		double d = a;
+		return a;
+	}
 };
 
 extern CPP_PROJ_API int ncpp_proj;
